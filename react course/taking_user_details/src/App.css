@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+  color: azure;
+  background-color: azure;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin: 5px; */
+}
+
+h1 {
+  margin: 0;
+}
+.header {
+  margin-bottom: 10px;
+  background-color: #2f5bb3;
+  color: aliceblue;
+  font-weight: bold;
+  padding: 15px;
+  width: 100%;
+}
+Button {
+  margin: 15px;
+}
+
+.data{
+  margin-top: 15px;
+  color: black;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.det{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  padding: 0px 9px 0px 9px;
+  font-weight: bold;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}

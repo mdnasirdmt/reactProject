@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 
 
 function Timer() {
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState(1);
 
   useEffect(() => {
     setTimeout(() => {
